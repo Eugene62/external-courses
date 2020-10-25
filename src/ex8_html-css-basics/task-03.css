@@ -1,0 +1,17 @@
+.first {
+  border: 1px solid;
+  margin: 1em;
+}
+
+.second {
+  outline: 5px inset rgb(8, 187, 23);
+  margin: 1em;
+}
+
+.third {
+  border-top: 5px dotted;
+  border-left: 1px dashed;
+  border-bottom: 5px groove;
+  border-right: 1px double;
+  margin: 1em;
+}

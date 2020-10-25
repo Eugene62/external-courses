@@ -1,0 +1,40 @@
+.greendiv {
+  background-color: green;
+}
+
+h1 {
+  color: #000080;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-style: SyneTactile-Regular;
+}
+
+ul {
+  background-image: url(https://pbs.twimg.com/media/CYk4EjOWMAAjALI.png);
+  background-size: 3%;
+}
+
+ul li {
+  font-family: SyneTactile-Regular; 
+}
+
+dl dd {
+  font-family: SyneTactile-Regular; 
+}
+
+@font-face {
+  font-family: SyneTactile-Regular; 
+  src: url(SyneTactile-Regular.ttf); 
+ }
+
+ table th {
+   font-size: 22pt;
+ }
+
+ table td {
+  font-size: 32pt;
+}
