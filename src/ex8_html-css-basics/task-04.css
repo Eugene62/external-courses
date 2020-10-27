@@ -9,8 +9,6 @@ h1 {
   text-align: center;
 }
 
-
-
 ul {
   background-image: url(https://pbs.twimg.com/media/CYk4EjOWMAAjALI.png);
   background-size: 3%;
@@ -29,7 +27,7 @@ dl dd {
   src: url(SyneTactile-Regular.ttf); 
 }
 
-h2 {
+#paragraph {
   font-style: SyneTactile-Regular;
 }
 
