@@ -27,10 +27,6 @@ dl dd {
   src: url(SyneTactile-Regular.ttf); 
 }
 
-#paragraph {
-  font-style: SyneTactile-Regular;
-}
-
 table th {
    font-size: 22pt;
 }
