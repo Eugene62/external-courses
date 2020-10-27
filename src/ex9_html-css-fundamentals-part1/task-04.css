@@ -1,5 +1,3 @@
-
-
 .first_decision {
   background-color: #60B88D;
   box-shadow: 5px 5px 0 #90CDAF, 10px 10px 0 #BFE3D1;
@@ -25,12 +23,14 @@
 
 .second_decision::after {
 	background: #f30101;
-	top: 5px; left: 5px;
+  top: 5px;
+  left: 5px;
 }
 
 .second_decision::before {
 	background: #c21a1a;
-	top: 10px; left: 10px;
+  top: 10px;
+  left: 10px;
 }  
 
 .third_decision {
