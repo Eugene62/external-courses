@@ -9,9 +9,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-style: SyneTactile-Regular;
-}
+
 
 ul {
   background-image: url(https://pbs.twimg.com/media/CYk4EjOWMAAjALI.png);
@@ -29,11 +27,15 @@ dl dd {
 @font-face {
   font-family: SyneTactile-Regular; 
   src: url(SyneTactile-Regular.ttf); 
- }
+}
 
- table th {
+h2 {
+  font-style: SyneTactile-Regular;
+}
+
+table th {
    font-size: 22pt;
- }
+}
 
  table td {
   font-size: 32pt;
