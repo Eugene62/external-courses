@@ -3,7 +3,7 @@ body {
 }
 .grid_decision{
   display: grid;
-  grid-template-columns: 80% 80%;
+  grid-template-columns: 80% 20%;
 }
 header {
   background: lightblue;
@@ -18,7 +18,6 @@ article {
 }
 aside {
   background: pink;
-  width: 25%;
 }
 header, article, section, .module {
   padding: 1rem;
