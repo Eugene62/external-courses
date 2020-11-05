@@ -1,0 +1,8 @@
+.my-table tr {
+    transition: background 1s;
+}
+
+.my-table tr:not(:first-child):hover {
+    background: #8d9aa7;
+    cursor: pointer;
+}

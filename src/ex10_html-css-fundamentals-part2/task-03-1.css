@@ -1,0 +1,34 @@
+
+.my-table--center {
+  margin: auto auto;
+}
+
+.my-table--shadow {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.my-table tr td:first-of-type {
+  text-transform: capitalize;
+}
+
+.my-table th {
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+.my-table td {
+  padding: 10px 20px;
+}
+
+.my-table th, 
+.my-table td {
+  border: 1px solid white;
+}
+
+.my-table tr:nth-child(odd) {
+  background: hsl(214, 10%, 86%);
+}
+
+.my-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
