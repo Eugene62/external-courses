@@ -9,7 +9,7 @@
 <body>
   <form action="http://httpbin.org/post" method="post">
     <fieldset>
-      <legend><div>Personal Data</div></legend>
+      <legend>Personal Data</legend>
     
       <div class = "Personal-data">
         <label>Surname<input name="Surname"></label><br><br>
@@ -27,7 +27,6 @@
 
       <label>Country of Residence
         <select id = "country">
-          <option> </option>
           <option value = "WL">WonderLand</option>
           <option value = "NL">NeverLand</option>
           <option value = "SL">SadnessLand</option>
@@ -42,7 +41,7 @@
         <label for="Moscow">Moscow</label></p>
       </div>
 
-      <label>Photography<input type="file" атрибуты></label>
+      <label>Photography<input type="file"></label>
       <hr>
 
       <label>
@@ -59,12 +58,11 @@
             <option value="badgetting_and_planning">Badgetting and planning</option>
           </optgroup> 
         </select>
-        </label><br><br>
+      </label><br><br>
 
         <label>Salary<input type="range" min="0" max="100" step="1" value="50"> </label>
 
         <p><textarea placeholder="Tell us about yourself..."  name="comment" cols="40" rows="3"></textarea></p>
-      </div>
     </fieldset>
 
     <fieldset>
