@@ -1,36 +1,51 @@
-div {
-  display: flex;
-  flex-direction: column-reverse;
-  max-width: 20rem;
-  margin: 0 auto;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-input {
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.box input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
   border: none;
-  padding: 1rem;
-  margin-top: 2rem;
-  font-size: 1.6rem;
-  border-bottom: 0.1rem solid #bdbdbd;
-  outline: none;  
+  border-bottom: 2px solid #999;
 }
 
-label {
-  padding-left: 1rem;
-  color: #bdbdbd;
-  transform: translateY(4.8rem);
-  transform-origin: left top;
-  cursor: text;
-  transition: all 0.3s;
+.box form div {
+  position: relative;
 }
 
-input:focus,
-input:not(:placeholder-shown) {
-  border-bottom: 0.1rem solid #212121;
+.box form div label{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #999;
+  transition: 0.5s;
+  pointer-events: none;
 }
 
-input:focus ~ label,
-input:not(:placeholder-shown) ~ label {
-  padding: 0;
-  color: #212121;
-  transform: translateY(2rem) scale(0.8);
+.box input:valid ~ label {
+  top: -20px;
+  color:blue;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.box input:focus,
+.box input:valid {
+  border-bottom: 2px solid blue;
 }
