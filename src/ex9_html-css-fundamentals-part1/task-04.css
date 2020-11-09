@@ -33,38 +33,33 @@
   left: 10px;
 }  
 
-.third_decision {
-  width: 100%;
+.first_chield{
+  position: relative;
+  width: 44%;
   height: 100px;
-  margin: 0.5rem;
-  position: relative;
-}
-
-#first_chield {
-  position: relative;
-  width: 44%;
-  height: 100%;
   background-color: #eedf08;
-  z-index: 200000000;
-  left: 8px;
+  z-index: -200000;
+
+  left: 26px;
+  top: 15px;
 }
 
-#second_chield {
-  position: relative;
-  width: 44%;
+ .second_chield {
+  position: absolute;
+  width: 100%;
   height: 100%;
-  bottom: 95px;
-  left: 13px;
+  left: -5px;
+  top: -5px;
   background-color: #7a0202;
-  z-index: -1;
+  z-index: 2;
 }
 
-#third_chield {
-  position: relative;
-  width: 44%;
+.third_chield {
+  position: absolute;
+  width: 100%;
   height: 100%;
-  bottom: 190px;
-  left: 18px;
+  left: -10px;
+  top: -10px;
   background-color: #3011b9;
-  z-index: -3;
-}
+  z-index: 6;
+}  
