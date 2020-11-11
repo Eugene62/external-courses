@@ -4,15 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="task-01.css">
+  
   <title>Task-01</title>
 </head>
 <body>
   <section class="banner">
-    <div class="imgBox">
-      <img src="image/1.jpg" class="active" alt ="">
-      <img src="image/2.jpg" alt ="">
-      <img src="image/3.jpg" alt ="">
-      <img src="image/4.jpg" alt ="">
+    <div class="imgBox" id="imgBx">
+
     </div>
     <ul class="controls">
       <li onclick="prevSlide();"></li>
@@ -20,23 +18,7 @@
     </ul>
   </section>
 
-  <script type="text/javascript"> 
-    const imgBox = document.querySelector('.imgBox');
-    const sliders = imgBox.getElementsByTagName('img');
+  <script src="task-01.js" defer></script>
 
-    let i = 0;
-
-    function nextSlide(){
-      sliders[i].classList.remove('active');
-      i = (i + 1) % sliders.length;
-      sliders[i].classList.add('active');
-    }
-
-    function prevSlide(){
-      sliders[i].classList.remove('active');
-      i = (i - 1 + sliders.length) % sliders.length;
-      sliders[i].classList.add('active');
-    }
-  </script>
 </body>
 </html>
