@@ -5,10 +5,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .container {
 height: 100vh;
 }
@@ -164,12 +160,18 @@ height: 100vh;
 #buttonMenu {
   position: relative;
   display: flex;
-  height: 20px;
   width: 20px;
+  height: 20px;
   background-color: #0067A3;
   align-items: center;
   justify-content: space-evenly; 
   cursor: pointer;
+}
+
+.menuContainer {
+  display: flex;
+
+  align-items: center;
 }
 
 #account, #tasks, #log_out {
