@@ -23,19 +23,11 @@ const menuContainer = document.getElementById("menuContainer");
 const button = document.getElementById("buttonMenu");
 const shevron = document.getElementById('shevron');
 
-const showList = () => { 
-  menuContainer.appendChild(list);
-}
-
-const hideList = () => {
-  list.remove();
-} 
-
 button.addEventListener('click', () => {
   shevron.classList.toggle('shevron_active')
     if(shevron.classList.contains('shevron_active') ) {
-    showList();
-  } else {
-    hideList();
-  }
+      menuContainer.appendChild(list);
+    } else {
+      list.remove();
+    }
 });
