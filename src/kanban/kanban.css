@@ -160,10 +160,10 @@ height: 100vh;
 .avatar {
   position: relative;
   display: flex;
-  height: 38.400001525878906px;
-  width: 38.400001525878906px;
-  left: 0.79998779296875px;
-  top: 0.79998779296875px;
+  height: 38px;
+  width: 38px;
+  left: 0.8px;
+  top: 0.8px;
   border-radius: 0px;
   background-color: #fff;
   border: 2px solid #FFFFFF;
