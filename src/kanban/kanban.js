@@ -31,3 +31,7 @@ button.addEventListener('click', () => {
       list.remove();
     }
 });
+
+function createNewList(){
+  console.log("create list");
+};

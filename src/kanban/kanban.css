@@ -89,6 +89,8 @@ height: 100vh;
 
 .action {
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .column.under {
