@@ -4,7 +4,7 @@ function myHTMLFetch(url, type){
     
     xhr.responseType = 'json'; 
 
-    xhr.open(type, url, true);
+    xhr.open(type, url);
 
     if (type === 'POST') {
       xhr.send(JSON.stringify( { "id": 4, "title": "Post 4" }));
