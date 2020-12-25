@@ -6,18 +6,18 @@ function myHTMLFetch(url, type){
 
     xhr.open(type, url);
 
-    if (type === 'POST') {
-      xhr.send(JSON.stringify( { "id": 4, "title": "Post 4" }));
-    } else {
-      xhr.send();
-    };
-
     xhr.onload = () => {
       if (xhr.status !== 200) {
         resolve(xhr.response); 
       } else {
         reject(`not correct`);
       }
+    };
+
+    if (type === 'POST') {
+      xhr.send(JSON.stringify( { "id": 4, "title": "Post 4" }));
+    } else {
+      xhr.send();
     };
   })
 }
